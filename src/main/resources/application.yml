@@ -1,0 +1,14 @@
+spring:
+  main:
+    web-application-type: none
+    banner-mode: "off"
+
+app:
+  name: "Gouramma.A"
+  regNo: "1RF22IS027"
+  email: "gowramma2303gmail.com"
+  forceBearerPrefix: true
+
+  finalQuery:
+    odd: "SELECT ...;"   # paste your SQL for odd roll numbers
+    even: "SELECT ...;"  # paste your SQL for even roll numbers
